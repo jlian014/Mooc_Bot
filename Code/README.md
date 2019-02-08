@@ -24,9 +24,7 @@ Google’s Universal Sentence Encoder, published in early 2018. Their encoder us
 
 At first, we have generated a `BASE_VECTORS` by applying Universal Encoder to the `objective_summray` of the course. Then, we have created a function that convert the input text as a 512 x 1 vector, and use cosine similarity to find simiarity between two vectors (the input text vector and `BASE_VECTORS`. This is nothing but finding the cosine of angle between two vectors. The formula is direcly taken from dot prduct of vectors:
 
-$$
-cos(\theta) = \frac{A \cdot B}{\left\| A\right\| \left\| B\right\| } = \frac{A \cdot B}{\sqrt{\sum{A_i^2}} \cdot \sqrt{\sum{B_i^2}}}
-$$
+$$cos(\theta) = \frac{A \cdot B}{\left\| A\right\| \left\| B\right\| } = \frac{A \cdot B}{\sqrt{\sum{A_i^2}} \cdot \sqrt{\sum{B_i^2}}}$$
 
 The function will find the most similar `objective_summary` with the search term and return 5 top closet courses matches to the search term and has higher number of subscribers and ratings.
 
