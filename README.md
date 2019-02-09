@@ -41,7 +41,7 @@ The data were collected by Udemy API, the dataset contains 75295 course informat
 - Most courses are in a range from 0 to 25 hours, the courses in the Development category are  relatively long which is range from 0 to 50 hours. Surprisingly, there are some courses over 100 hrs.
 - There's no clear linear relationship among course hours, number of subscribers and ratings.
 
-Details can be found in [this Notebook](./Code/.01_Data_Cleaning_and_EDA.ipynb)
+Details can be found in [this Notebook](./Code/.02_Data_Cleaning_and_EDA.ipynb)
 
 ![EDA_1](./Image/EDA_1.png)
 
