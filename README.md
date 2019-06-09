@@ -45,9 +45,7 @@ Details can be found in [this Notebook](./Code/01_Data_Cleaning_and_EDA.ipynb)
 
 ![EDA_1](./Image/EDA_1.png)
 
-### 4. ChatBot Workflow
-
-<img src="./Image/Workflow.png" width="700">
+### 4. ChatBot Engineering
 
 Slack Technologies Inc., a business messaging provider, is the latest company to partner with International Business Machines Corp. to add artificial intelligence to its service. Slack has user-friendly ChatBot developing environment integrating with IBM's Watson, a collection of artificial-intelligence software delivered as cloud-computing services, 
 
